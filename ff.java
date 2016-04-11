@@ -6,7 +6,7 @@ public class ff {
 		double v;
 	public double calc(){ 
 
-	
+	return v=(Math.PI)*(r*r)*(h); //Формула обчислення обьєму циліндра
 	} 
 			
 	}

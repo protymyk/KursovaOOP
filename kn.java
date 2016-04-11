@@ -9,7 +9,10 @@ public class kn {
 		int h = scan.nextInt(); 
 		System.out.println("Введіть радіус циліндр: "); 
 		int r = scan.nextInt();
-	 
+		v1.h=h;//передача змінних
+		v1.r=r;//передача змінних
+		double vv = v1.calc(); //прийнятя зміної з класу ff
+		System.out.println("Обьєм заданого циліндра = " + vv); 
 
 	
 	
